@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Desafío - Relaciones 1 a N en los modelos
 
-Things you may want to cover:
+Modulo 6
 
-* Ruby version
+Alumna Carola Pulgar Soto 
 
-* System dependencies
+Requerimientos
+1. Set-up inicial del proyecto, el proyecto viene con algunos errores que deben ser corregidos y cargar datos ficticios. Recuerda el uso de la gema faker.
+2. Al editar una película puedo asignarle un cliente.
+3. En el index de clientes mostrar si el cliente tiene una película arrendada.
+4. Modificar diseño de la aplicación, no puede ser igual al entregado.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+Se Agregaron las gemas
 
-* How to run the test suite
+gem "faker"
 
-* Services (job queues, cache servers, search engines, etc.)
+gem 'kaminari'
 
-* Deployment instructions
+Se actualizaron las gemas de
 
-* ...
+ruby "3.3.5"
+gem "rails", "~> 7.2.1"
