@@ -1,0 +1,38 @@
+body {
+    /* background: linear-gradient(to right, #010114, #021D3B, #010114); */ 
+    background-image: url('/assets/fondopelicula.jpg'); 
+    background-size: cover; 
+    margin: 20px; 
+    color: #0072EC;
+  }
+
+  h1, h2, h3 , h5{
+    color: #0072EC; 
+  }
+
+  th {
+    color: #0072EC;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  td {
+    color: #0072EC;
+    font-size: medium;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+  }
+  
+  .pagination .first,.prev, .next, .pagination .last {
+    background-color: #1DA1F2; /* Color azul */
+    color: black; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  .pagination .next:hover, .pagination .last:hover {
+    background-color: #0d8bf2; /* Color más oscuro al pasar el mouse */
+  }

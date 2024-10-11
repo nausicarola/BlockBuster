@@ -1,0 +1,21 @@
+<div id="<%= dom_id client %>">
+  <tr>
+    <th scope="row"><%= client.id %></th>
+    <td><%= client.name %></td>
+    <td><%= client.age %></td>
+   <td>
+    <% if client.movies.any? %>
+      <%= client.movies.last %>
+    <% else %>
+      No hay películas disponibles.
+    <% end %>
+    </td>
+    <% unless action_name == 'show' %>
+      <td><%= link_to "Show this client", client, class: "btn btn-primary" %></td>
+    <% end %>
+    
+    <td><%= link_to "Edit this client", edit_client_path(client), class: "btn btn-primary" %></td>
+    <td><%= button_to "Delete", @client, method: :delete, class: "btn btn-primary" %></td>
+   
+  </tr>
+</div>
