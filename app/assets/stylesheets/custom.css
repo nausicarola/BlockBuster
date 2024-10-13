@@ -36,3 +36,24 @@ body {
   .pagination .next:hover, .pagination .last:hover {
     background-color: #0d8bf2; /* Color más oscuro al pasar el mouse */
   }
+
+  .alert {
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente */
+    color: black; /* Cambia el color del texto a rojo */
+    background-color: #0072EC; /* Color de fondo suave para alertas */
+    border: 1px solid #f5c6cb; /* Borde más oscuro para contraste */
+    padding: 15px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+
+  .nav-link {
+    color: #0072EC;
+    font-size: xx-large;
+    font-weight: 500;
+ 
+  }
+
+  .navbar-brand {
+    color: #0072EC;
+    font-size: xx-large;
+  }

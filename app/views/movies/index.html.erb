@@ -2,7 +2,10 @@
 
 <div class="container">
   <h1>Movies</h1>
-  <%= link_to "New movie", new_movie_path %>
+  <div class="mt-4"></div>
+    <td><%= link_to "New movie", new_movie_path, class: "btn btn-primary" %></td>
+  </div>
+  <hr>
   <div id="movies">
     <div class="row">
       <% @movies.each do |movie| %>

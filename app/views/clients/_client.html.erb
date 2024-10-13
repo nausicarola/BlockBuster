@@ -15,7 +15,8 @@
     <% end %>
     
     <td><%= link_to "Edit this client", edit_client_path(client), class: "btn btn-primary" %></td>
-    <td><%= button_to "Delete", @client, method: :delete, class: "btn btn-primary" %></td>
-   
+    <td>
+      <%= button_to "Delete", client, method: :delete,  class: "btn btn-primary" %>
+    </td>
   </tr>
 </div>

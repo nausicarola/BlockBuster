@@ -17,8 +17,8 @@
   </div>
 
   <div class="mb-3">
-    <td><%= form.label :client_id, style: "display: block" %></td>
-   <td><%= form.select :client_id, options_for_select(@clients) %></td>
+   <td><%= form.label :client_id, style: "display: block" %></td>
+   <td><%= form.select :client_id, options_for_select(@clients), include_blank: "Selecciona un cliente" %></td>
   </div>
 
   <div>
